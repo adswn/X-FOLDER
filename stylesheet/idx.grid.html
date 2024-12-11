@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID PADA CSS</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .header {
+            border: 5px solid black;
+            padding: 15px;
+            background-color: bisque;
+        }
+
+        .row:after {
+            content:"";
+            display: table;
+            clear: both;
+
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+            border: 5px solid black;
+        }
+
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.33%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;} 
+        .col-12 {width: 100%;}
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: 0;
+            
+            
+        }
+
+        li {
+            padding: 5px;
+            margin-bottom: 8px;
+            background-color: antiquewhite;
+            color: rgb(0, 0, 0);
+            box-shadow: 0 1px 3px rgb(blue,white,rgb(255, 0, 208))
+        }
+
+        li:hover {
+            background-color: rgb(0, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>css grid</h1>
+    </div>
+    <div class="row">
+    <div class="col-3">
+        <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>javascipt</li>
+        </ul>
+    </div>
+    <div class="col-9">
+        <h2>kota</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error doloribus tempora ex placeat omnis veniam labore veritatis magnam voluptatum, 
+            
+            
+            
+            porro odit voluptatem excepturi amet, dolorum rerum cumque rem molestias voluptas!</p>
+    </div>
+    </div>
+</body>
+</html>

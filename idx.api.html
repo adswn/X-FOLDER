@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lokasi</title>
+    <link rel="icon" type="x-icon" href="c:\Users\User\Downloads\favicon (1).ico">
+    <script>
+      function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+    </script>
+</head>
+<body>
+  <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <img id="drag1" src="c:\Users\User\Downloads\favicon (1).ico" draggable="true" 
+  ondragstart="drag(event)" width="335" height="75">
+  <br>
+  <br>
+  <br>
+  <p>penghitung nomor <output id="result"></output></p>
+  <button onclick="startworker()">startworker</button>
+  <button onclick="stopworker()">stopworker</button>
+
+  <script>
+    var w;
+
+    function startworker(); {
+      if (typeof(Worker)) !== "undefined" {
+        if (typeof(W)) == "undfined" {
+          w = (new Worker("demo_workers.js"));
+        }
+        w.onmessage = function(event) {
+          document.getElementById("result").innerHTML = event.data;
+        };
+
+      }else {
+        document.getElementById("result").innerHTML = "sorry! no web worker suppot.";
+      }
+    }
+
+    function stopworker() {
+      w.terminate();
+      w = undefined;
+    }
+
+    var i = 0;
+
+function timedCount() {
+  i = i + 1;
+  postMessage(i);
+  setTimeout("timedCount()",500);
+}
+
+timedCount();
+
+  </script>
+</body>
+</html>
+
+

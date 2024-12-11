@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kolom dalam tulisan </title>
+    <link rel="icon" href="c:\Users\User\Downloads\happy-super-happy.gif">
+
+    <style>
+        div {
+            border: 2px solid red;
+            padding: 30px;
+            width: 400px;
+            resize: auto;
+            
+            overflow: auto;
+        }
+
+        .kolom {
+            column-count: 3;
+            column-gap: 40px;
+            column-rule-style: ridge;
+            column-rule-color: bisque;
+            column-rule-width: 5px;
+
+        }
+
+        h2 {
+            column-span: all;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="kolom">
+        <h2>kolom dalam css</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Velit ducimus error asperiores, dolore non expedita tempora 
+        adipisci atque dignissimos possimus cumque magnam 
+        praesentium facilis obcaecati ipsa dolor consequuntur, 
+        explicabo minus!
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header ul li {
+  display: inline-block;
+}
+.header ul li {
+  background-color: aquamarine;
+  padding: 0.5em;
+}
+.header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer ul li {
+  display: inline-block;
+}
+.footer ul li {
+  background-color: antiquewhite;
+  padding: 0.7em;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: rgb(17, 17, 16);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: row-reverse;
+  width: 500px;
+  height: 200px;
+  background-color: black;
+}
+
+.box {
+  width: 60px;
+  height: 20px;
+  background-color: greenyellow;
+  text-align: center;
+}
+
+/*# sourceMappingURL=mixin.css.map */

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>berbagai macam foto</title>
+    <link rel="icon" href="c:\Users\User\Downloads\happy-super-happy.gif">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            text-align: center;
+            padding: 32px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+
+        .colum {
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+        }
+
+        .colum img {
+            margin-top: 8%;
+            vertical-align: 50%;
+            border: 5px solid beige;
+            box-sizing: content-box;
+            box-shadow: 0 5px 0 8px burlywood;
+            width: 200px;
+            height: 100px;
+          
+        }
+
+     @media screen and (max-width: 480px) {
+        .colum {
+            flex: 50%;
+            max-width: 50%;
+        }
+     }
+
+     @media screen and (max-width: 600px){
+        .colum {
+            flex: 100%;
+            max-width: 100%;
+        }
+     }
+
+     .flex-container {
+        flex-direction: row;
+     }
+        
+       
+
+        </style>
+        
+            
+</head>
+<body>
+    <div class="header">
+    <h1>foto yang responsif</h1>
+    <p>disini ada bermacam foto </p>
+    </div>
+
+    <!--elemen untuk foto-->
+    <div class="row">
+        <div class="colum", class="flex-container">
+         <img src="c:\Users\User\Downloads\webcam-toy-photo4.jpg" alt="orang"style="100%">
+        <img src="c:\Users\User\Downloads\webcam-toy-photo3.jpg" alt="orang"style=100%>
+        <img src="c:\Users\User\Downloads\webcam-toy-photo2.jpg" alt="orang"style=100%>
+        <img src="c:\Users\User\Downloads\webcam-toy-photo1.jpg" alt="orang"style=100%>
+        <img src="c:\Users\User\Downloads\webcam-toy-photo5.jpg" alt="orang"style=100%>
+        <img src="c:\Users\User\Pictures\Camera Roll\WIN_20240118_10_48_34_Pro.jpg" alt="orang"style="100%">
+        <img src="c:\Users\User\Pictures\Camera Roll\WIN_20240118_10_48_43_Pro.jpg" alt="orang"style="100%">
+        <img src="c:\Users\User\Pictures\Camera Roll\WIN_20240118_10_48_03_Pro.jpg" alt="orang"style="100%">
+        <img src="c:\Users\User\Pictures\Camera Roll\WIN_20240118_10_48_17_Pro.jpg" alt="orang"style="100%">
+        </div>
+    </div>
+</body>
+</html>

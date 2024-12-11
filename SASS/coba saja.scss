@@ -1,0 +1,25 @@
+@mixin angle($size, $color, $direction) {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-color: transparent;
+    border-style: solid;
+    border-width: $size;
+    @if $direction == up {
+        border-bottom-color: $color;
+    }
+    @else if $direction == rigth {
+        border-left-color: $color;
+    }
+    @else if $direction == down {
+        border-top-color: $color;
+    }
+    @else {
+        border-rigth-color: $color;
+    }
+
+}
+
+.rigth {
+    @include angle(2em, black, down);
+}

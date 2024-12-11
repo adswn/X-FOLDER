@@ -1,0 +1,90 @@
+.square-profile {
+  width: 200px;
+  height: 200px;
+  border: 5px solid beige;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.circle-profile {
+  width: 80px;
+  height: 80px;
+  border: 5px solid beige;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.nav {
+  background-color: black;
+  color: white;
+}
+
+.right {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-top-color: rgb(0, 0, 0);
+}
+
+.gradien {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.gradien li:nth-child(1) {
+  padding: 4px;
+  background-color: #0f0fff;
+}
+.gradien li:nth-child(2) {
+  padding: 4px;
+  background-color: #1f1fff;
+}
+.gradien li:nth-child(3) {
+  padding: 4px;
+  background-color: #2e2eff;
+}
+.gradien li:nth-child(4) {
+  padding: 4px;
+  background-color: #3d3dff;
+}
+.gradien li:nth-child(5) {
+  padding: 4px;
+  background-color: #4d4dff;
+}
+.gradien li:nth-child(6) {
+  padding: 4px;
+  background-color: #5c5cff;
+}
+.gradien li:nth-child(7) {
+  padding: 4px;
+  background-color: #6b6bff;
+}
+.gradien li:nth-child(8) {
+  padding: 4px;
+  background-color: #7a7aff;
+}
+.gradien li:nth-child(9) {
+  padding: 4px;
+  background-color: #8a8aff;
+}
+.gradien li:nth-child(10) {
+  padding: 4px;
+  background-color: #9999ff;
+}
+
+.media {
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.media .youtube {
+  color: red;
+}
+.media .facebook {
+  color: blue;
+}
+.media .bussid {
+  color: salmon;
+}/*# sourceMappingURL=flow.css.map */

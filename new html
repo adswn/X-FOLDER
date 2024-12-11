@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my web page</title>
+    </head>
+    <body>
+        <p>coding <br> club</p>
+        <p>gamon <hr> barang</p>
+        <p><b>sekawan</b> <u>ora</u> <i>sehati</i></p>
+       <h3>list menu makanan</h3>
+
+       <ol>nasgor</ol>
+
+       <ol> martabak</ol>
+       <ol>mie ayam</ol>
+    </body>
+    <body>
+        <h4> makanan saya</h4>
+        <ul> nasi ayam</ul>
+        <ul> nasgor</ul>
+        <ul>banyu</ul>
+
+        <h3>daftar menu</h3>
+        <Ol type="A">
+            <li>bakso tanpa tepung</li>
+            <li>mie tanpa tepung</li>
+            <li>es teh anget</li>
+        </Ol>
+
+        <h4>menu makanan</h4>
+        <ul type="disc">
+            <li>nasi goreng tanpa di goreng</li>
+            <li>mie goreng tanpa mie</li>
+            <li>rawon tanpa rawon</li>
+        </ul>
+
+        <h5>warung ra bakol</h5>
+        <dl>
+           <dt><strong> nasgor </strong> </dt>
+           <dd> nasi goreng </dd>
+           <dt> temreng </dt>
+           <dd> tempe goreng </dd>
+        </dl>
+    </body>
+
+</html>

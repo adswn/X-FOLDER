@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>progam pertama ku</title>
+</head>
+<body>
+   <p> klik link <a href="IDX.HTML">disini</a></p>
+   <P> <a href=http://103.184.180.137/login/index.php>LOGIN</a> smansa</P>
+   <p> <a href="/html/html_links.asp">html link</a></p>
+    <p> <a href="https://www.youtube.com/watch?v=J9A3MgXclN0" target="self">youtube</a></p>
+    <p> <a href="https://www.youtube.com/watch?v=J9A3MgXclN0" target="_blank">video</a> youtube</p>
+    <p> <a href="https://www.youtube.com/watch?v=J9A3MgXclN0" target="_parent">video</a> youtube</p>
+    <p> <a href="https://www.youtube.com/watch?v=J9A3MgXclN0" target="_top">video</a> youtube</p>
+
+    <a href="/html/html_links.asp">
+        <img src="c:\Users\User\Pictures\Camera Roll\WIN_20240319_09_33_47_Pro.jpg" alt="foto" style="width: 43px;height: 43px;">
+    </a>
+    <h2 id="value">tautan 4</h2>
+    <h2 href="idx.c++ #value">lompat 4</h2>
+       
+ 
+ <table border="7" cellspacing="0" cellpadding="3">
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+         <td>1,3</td>
+         <td>1,8</td>
+         <td>1,9</td>
+    </tr>
+    
+    <tr>
+        <td>1,6</td>
+        <td>1,1</td>
+        <td>1,5</td>
+    </tr>
+   
+
+ </table>
+
+
+ <pre>
+    ghjdagghjdavdhjvgdavhegq
+ </pre>
+
+</body>
+</html>
+    
+
+
+

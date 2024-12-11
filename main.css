@@ -1,0 +1,11 @@
+header {
+  background-color: red;
+}
+header h1 {
+  background: salmon;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header p {
+  font-size: 3rem;
+}/*# sourceMappingURL=main.css.map */

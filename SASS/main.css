@@ -1,0 +1,19 @@
+.container {
+  border: 4px solid blue;
+  box-shadow: 2em;
+}
+
+.main {
+  background-color: aquamarine;
+}
+.main .main-heading {
+  font-size: 2em;
+  font-family: "Courier New", Courier, monospace;
+}
+.main .footer {
+  font-size: 3em;
+  background-color: azure;
+}
+.main:hover .footer {
+  background-color: slateblue;
+}/*# sourceMappingURL=main.css.map */

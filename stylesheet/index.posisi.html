@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posisi pada csss</title>
+
+    <style>
+        .static {
+            position: static;
+            border: 3px solid blue;
+        }
+
+        .relative {
+            position: relative;
+            left: 3px;
+            border: 3px solid rgb(27, 27, 78);
+        }
+
+        .absolute {
+            position: absolute;
+            top: 80%;
+            right: 0;
+            width: 300px;
+            height: 100px;
+            border: 5px solid salmon;
+        } 
+
+        .sticky {
+            position: "-webkit-sticky";
+            position: sticky;
+            top: 0%;
+            background-color: blueviolet;
+            border: 3px solid black;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        .black-box {
+            position: relative;
+            z-index: 1;
+            border: 3px solid black;
+            height: 200px;
+            margin: 30px;
+         }
+
+         .green-box {
+            position: absolute;
+            z-index: -1;
+            background: lightblue;
+            height: 30px;
+            width: 10px;
+            left: 50px;
+            top: 50px;
+            
+        }
+
+        .pink-box {
+            position: absolute;
+            z-index: 1;
+            background: lemonchiffon;
+            width: 35%;
+            left: 270px;
+            top: -15px;
+            height: 100px;
+        }
+
+
+
+ 
+    </style>
+</head>
+<body>
+    <div class="static" class="absolute">
+    <h1>
+        posisi pasa sebuah css 
+    </h1>
+    </div>
+
+    <div class="relative">
+    <h1>posddhfvwehfgerygfeavfgcveqvcyvqyevfajdgwydbcfgdhsbcvrhfrgcv</h1>
+    </div>
+    <br>
+    <br>
+
+
+    <div class="sticky">
+    <h2>mencoba lengket</h2>
+    </div>
+    <p>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+             Repellat aperiam deserunt voluptas nam repellendus! Fugiat beatae dolorem nihil provident blanditiis iste dolor vel illo 
+              accusamus, possimus itaque pariatur? Sint, dolore?
+
+              kvhcdsghscvjqwvfwuvfuicbwuequwebe iiiivcayveqiyvcibcb q ocbdkchwebdhvfiubceabchfgw
+              kjdcbehcbeiiu d uicequifeaiuevg4uifbdaiufgubsridhsuidhsdjb3qf
+              hdau  8gefiueagf93f 9w gfagfwohsdwwwdddxdw2qwhyrdcwwwwwwwwwwwwwwwwwnfjwnfwR
+
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Ratione eveniet sed saepe quia! Sequi deleniti temporibus sed magni assumenda. Praesentium voluptate 
+              facilis doloribus nostrum non atque alias voluptas incidunt dolor.
+
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae est delectus animi facere officia ipsum fuga commodi placeat earum consectetur,
+               laudantium cum non labore aspernatur veniam illo quaerat veritatis nemo!
+
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id earum tempora eligendi voluptatem amet sit quis, nemo perferendis sint, 
+               minima esse distinctio ad explicabo perspiciatis cumque porro impedit eveniet nam!
+    </p>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">blue box</div>
+    <div class="black-box">black box</div>
+    <div class="green-box">green box</div>
+    <div class="pink-box">pink box</div>
+    
+    
+</body>
+</html>

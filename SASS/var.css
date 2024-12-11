@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(217, 0, 255);
+}
+
+h1 {
+  color: rgb(0, 255, 247);
+}
+
+p {
+  color: rgb(255, 255, 255);
+}
+
+h1:hover {
+  background-color: orange;
+}/*# sourceMappingURL=var.css.map */

@@ -1,0 +1,12 @@
+.header ul {
+    @include inculed();
+    li {
+        background-color: aquamarine;
+        padding: 0.5em;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

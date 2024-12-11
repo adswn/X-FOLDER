@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>srite css</title>
+    <link rel="icon" type="x-icon" href="c:\Users\User\Downloads\favicon (1).ico">
+
+    <style>
+        .navlist {
+            position: relative;
+        }
+
+        .navlist li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            position: absolute;
+            top: 0;
+        }
+
+        .navlist li, .navlist a {
+            height: 44px;
+            display: block;
+        }
+
+        .home:hover {
+            width: 46px;
+            height: 44px;
+            background: url(meme_hover.gif) 0 -44px;
+        }
+
+        .prev:hover {
+            left: 63px;
+            width: 43px;
+            background: url(meme_hover.gif) -45px -47px;
+        }
+
+        .next:hover {
+            left: 129px;
+            width: 43px;
+            background: url(meme_hover.gif) -91px -47px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li id="navlist"><a href="index.sprite.html">rumah</a></li>
+    </ul>
+    <img src="c:\Users\User\Downloads\meme.gif" alt="gif" id="home">
+    <img src="c:\Users\User\Downloads\meme.gif" alt="gif" id="prev">
+    <img src="c:\Users\User\Downloads\meme.gif" alt="gif" id="next">
+    
+
+    
+</body>
+</html>

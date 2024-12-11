@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar toolltip</title>
+    <link rel="icon" href="c:\Users\User\Pictures\WhatsApp Image 2024-03-27 at 7.54.32 PM.jpeg">
+
+    <style>
+        body {
+            background-color: rgb(129, 129, 5);
+        }
+
+        .toolltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted whitesmoke;
+        }
+
+        .toolltip .toolltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: blue;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+            gap: 10em; 
+            
+            
+            position: absolute;
+            z-index: 1;
+        }
+
+        .toolltip:hover .toolltiptext {
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <div class="toolltip">klik
+        <span class="toolltiptext">mencoba</span>
+    </div>
+
+    <div class="toolltip">arahkan mouse
+        <span class="toolltiptext">ini yang terjadi</span>
+    </div>
+   
+</body>
+</html>

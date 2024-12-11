@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FROM input></title>
+    <link rel="icon" type="x-icon" href="c:\Users\User\Downloads\favicon (1).ico">
+<body>
+    <from>
+        <label for="fname">nama depan</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="iname">nama belakang</label><br>
+        <input for="text" id="iname" name="iname">
+    </from>
+    <br><br>
+    <p>pilih lah hobi</p>
+    <from>
+        <input type="radio" id="futsal" name="p_hobi" value="futsal">
+        <label for="futsal">futsal</label><br>
+        <input type="radio" id="sepak bola" name="p_hobi" value="sepak bola">
+        <label for="sepak bola">sepak bola</label><br>
+       <input type="radio" id="coding" name="p_hobi" value="coding">
+       <label for="coding">coding</label><br>
+       <input type="submit" value="submit">
+    </from>
+    <br>
+    <br>
+    <from>
+        <label for="sekolah">sekolah</label>
+        <section id="sekolah" name="sekolah" size="4" multile>
+        <input  type="checkbox" id="smansa" value="smansa">
+        <option value="smansa">sma 1 mejayan</option>
+        <input  type="checkbox" id="smanda" value="smanda">
+        <option value="smanda">sma 2 mejayan</option>
+        <input  type="checkbox" id="pink" value="pink">
+        <option value="pink">smk 1 wonoasri</option>
+        <input  type="checkbox" id="green" value="green">
+        <option value="green">smk 1 mejayan</option>
+        </section>
+    </from>
+
+    <button type="button" onclick="alert('idx.kelas.html')">cari</button> 
+    <br>
+    <br>
+
+    <P>favorit color</P>
+    <from>
+        <label for="favcolor">pilih color</label>
+        <input type="color" id="favcolor" name="favcolor">
+    </from>
+    <br>
+    <form>
+        <label for="birthday">birthday</label>
+        <input type="date" id="birthday" name="birthday">
+    </form>
+    <br>
+    <br>
+    <form>
+        <label for="datamax">ultah 2007-08-12</label>
+        <input type="data" id="datamax" name="datamax" max="2007-08-12">
+        <label for="datamin">2024-08-12</label>
+        <input type="data" id="datamin" name="datamin" min="2024-08-12">
+    </form>
+    <br>
+    <br>
+    <form>
+        <label for="birthdaytime">masukan (data dan waktu)</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+    </form>
+    <br>
+    <br>
+    <form>
+        <input type="image" src="c:\Users\User\Pictures\WhatsApp Image 2024-03-27 at 7.54.32 PM.jpeg" alt="submit" width="28" height="28">
+
+    </form>
+    <br>
+    <br>
+    <form>
+        <Label for="mname">masukan name</Label>
+        <input type="text" id="mname" name="mname">
+        <input type="hidden" id="custld" name="custld" value="3458">
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <br>
+    <br>
+    <form>
+        <label for="minimal">minimal(1-10)</label>
+        <input type="number" id="minimal" name="minimal" min="0" max="100" step="10" value="30"><br><br>
+        <input type="submit"  value="submit">
+     </form>
+     <br>
+     <br>
+     <form>
+        <label for="vol">volume(0-100)</label>
+        <input type="range" id="vol" name="vol" min="0" max="100">
+     </form>
+     <br>
+     <form>
+        <label for="gsearch">search google</label>
+        <input type="search" id="gsearch" name="gsearch">
+     </form>
+     <br>
+     <br>
+     <form>
+        <label for="mname">masukan name</label>
+        <input type="text" id="mname" name="mname" value="dafa" readonly>
+        <label for="uangka">umur angka</label>
+        <input type="text" id="uangka" name="uangka" value="dafa"><br>
+        <input type="submit" value="submit">
+     </form>
+     <br>
+     <br>
+     <form>
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" size="20"><br><br>
+        <label for="PIN">PIN</label>
+        <input type="text" id="PIN" name="PIN" maxlength="5" size="5"><br>
+        <input type="submit" value="submit">
+     </form>
+     <br>
+     <br>
+     <br>
+     <form>
+        <label for="kontrol_code">kontrol_code</label>
+        <input type="text" id="kontrol_code" name="kontrol_code" pattern="[A-Aa-Z]{3}" title="pengontrolan code">
+     </form>
+     <br>
+     <br>
+     <form>
+        <label for="phone">phone number</label>
+        <input type="number" id="phone" name="phone" step="3">
+     </form>
+     <br>
+     <br>
+     <br>
+     <form action="/action_page.php" autocomplete="on">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" autocomplete="off"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>INI LAH WEB LATIHAN SAYA</title>
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding:0;
+    
+                herder {
+                    background-color: rgb(22, 198, 139);
+                    padding: 40%;
+                    text-align: center;
+                }
+                main {
+                    padding: 40%;
+                }
+                h1{
+                    margin-bottom: 40%;
+                }
+                P{
+                    margin-bottom: 40%;
+                }
+            }
+        </style>
+    </head>
+   
+    <body>
+        <img src="c:\Users\User\Pictures\Camera Roll\WIN_20231114_13_06_27_Pro.jpg" width="500" height="300">
+        <button class="klick"></button>
+    <header>
+        <h1>ini lah web pertama kami yang sederhana</h1>
+    </header>
+    <main>
+        <h2>halaman utama web kami</h2>
+        <p>layanan yang kami tawarkan</p>
+        <ul>
+            <li><a href="about.html">tentang web kami</a></li>
+            <lia><a href="contact.html">kontak kami</a></li>
+                <lia><a href="servis.html">layanan kami</a></li> 
+        </ul>
+    </main>
+    </body>
+</html>
+
+

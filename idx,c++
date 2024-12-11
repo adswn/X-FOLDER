@@ -1,0 +1,9 @@
+#include <iostream>
+int merah(int x, int y, int %) {
+    int hasil = x % x;
+    while (y > 0) {
+        hasil = ( hasil + 1)  % z;
+        y--;
+    }
+    
+}

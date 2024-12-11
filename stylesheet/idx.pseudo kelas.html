@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kelas pseudo</title>
+    <link rel="icon" type="x-icon" href="c:\Users\User\Downloads\favicon (1).ico">
+
+    <style>
+       .kelas:link {
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .kelas:hover {
+            color: red;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 30px;
+        }
+
+        .kelas:visited {
+            color: blue;
+        }
+
+        .kelas:active {
+            font-style: italic;
+        }
+
+        li ::first-line a {
+            color: rgb(255, 255, 255);
+            font-size: 200px;
+
+        }
+
+        p::first-letter {
+            background-color: rgb(255, 255, 255);
+            color: black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+           
+         }
+
+         p ::first-line {
+            color: bisque;
+            font-variant: small-caps;
+         }
+
+         p:last-of-type {
+            color: rgb(0, 8, 8);
+            font-size: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         }
+
+         
+         h1::marker {
+            color: bisque;
+            background: local;
+            font-style: oblique;
+         }
+
+         ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 50px;
+            background-color: rgb(82, 82, 66);
+            border: 2px solid black;
+            display: flex;
+         }
+
+         li {
+            float: left;
+         }
+
+         li a {
+            display: block;
+            color: rgb(243, 243, 243);
+            padding: 8px 20px;
+            text-decoration: none;
+            
+        }
+
+        li a:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+
+        .active {
+            background-color: rgb(69, 62, 62);
+            color: aqua;
+        }
+
+                     
+
+    </style>
+
+</head>
+<body>
+    <a href="style.tabel.css" class="kelas">sya</a>
+    <div class="active">
+    <ul>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">6</a></li>
+        <li><a href="#">7</a></li>
+        <li><a href="#">8</a></li>
+        <li><a href="#">9</a></li>
+        <li><a href="#">10</a></li>
+        <li><a href="#">11</a></li>
+        <li><a href="#">12</a></li>
+    </ul>
+    </div>
+    <br><br><br>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, temporibus voluptate. Ea, mollitia cum autem excepturi minima porro facere asperiores. 
+        Suscipit quidem odit error soluta tenetur necessitatibus ad dolores nemo.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quis iure atque consequatur suscipit ratione ex beatae, 
+        reiciendis quibusdam eius, mollitia esse quos sed consequuntur vitae in velit laudantium odio.
+    </p>
+
+    <h1>sudah asing</h1>
+
+   
+</body>
+</html>

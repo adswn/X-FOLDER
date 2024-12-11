@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>my profil</title>
+        <link rel="stylesheet" type="texs/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>adi setiawan</h1>
+            <nav>
+                <a href="#services">services</a>
+                <a href="#testimonials">testimonials</a>
+                <a href="#contact">contact</a>
+            </nav>
+        </header>
+        <section id="profil">
+            <img alt="profil picture" src="c:\Users\User\Pictures\Camera Roll\WIN_20231114_13_06_27_Pro.img">
+            <div>
+                <h2>web ini adalah web coba-coba saya</h2>
+                <p>hanya gabut pemula.</p>
+                <button class="hire-btn">hire me</button>
+                <button class="down-cv">down cv</button>
+            </div>
+        </section>
+        <section id="services">
+            <h2>services</h2>
+            <P>lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industry's stnadard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it to make a type specimen book.</P>
+            <div class="box-container">
+                <div class="box-1">
+                    <h3>web saya,ora design</h3>
+                    <p> lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <button>read more</button>
+                </div>
+                <div class="box-2">
+                    <h3> web saya,ora design</h3>
+                    <p> lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <button>read more</button>
+                </div>
+                <div class="box-3">
+                    <h3>web saya,ora design</h3>
+                    <p>lorem ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <button>read more</button>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <h2>testimonials</h2>
+            <div class="testimoni-col">
+                <div class="testimoni-1">
+                    <p>lorem ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <h3>CLIent one</h3>
+                    <i class="fas fa-start"></i>
+                    <i class="fas fa-start"></i>
+                    <i class="fas fa-start"></i>
+                    <i class="fas fa-start"></i>
+                    <i class="fas fa-start"></i>
+                </div>
+                <div class="testimoni-2">
+                    <p>lorem ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <h3>CLIent two</h3>
+                    <i class="fas fa-start"></i>
+                    <i class="fas fa-start"></i>
+                    <i class="fas fa-start"></i>
+                    <i class="fas fa-start"></i>
+                    <i class="fas fa-start"></i>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>interested using my services?</p>
+            <p>resevasi lah di web kami</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-whatshapp"></i></a>
+                    <a href="#"><i class="fab fa-ingtgram"></i></a>
+                    <
+
+                    
+                    
+                    
+
+
+
+
+                

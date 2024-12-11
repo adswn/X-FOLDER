@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar animasi css</title>
+
+    <style>
+       @keyframes example {
+             0%{background-color: red;}
+             25%{background-color: rgb(157, 157, 14);}
+             50%{background-color: aqua;}
+             100%{background-color: rgb(0, 55, 255);}
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+div:hover {
+    visibility: visible;
+}
+
+       
+    </style>
+</head>
+<body>
+    <div>
+        animasi bergerak
+    </div>
+</body>
+</html>
