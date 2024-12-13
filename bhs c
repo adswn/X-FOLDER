@@ -4,7 +4,7 @@ int main() {
     int i; //sama dengan "auto int i;"
     auto int j; // sama dengan "int j;" 
     printf("i = %d,j = %d\n", i, j);
-    return 0;rtfyguhijp
+    return 0;
     '
 
 }
