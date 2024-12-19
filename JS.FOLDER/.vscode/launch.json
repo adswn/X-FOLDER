@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/User/.vscode/cli/X FOLDER/c++ file",
-      "program": "c:/Users/User/.vscode/cli/X FOLDER/c++ file/build/Debug/outDebug",
+      "cwd": "c:/Users/User/.vscode/cli/X FOLDER/JS.FOLDER",
+      "program": "c:/Users/User/.vscode/cli/X FOLDER/JS.FOLDER/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

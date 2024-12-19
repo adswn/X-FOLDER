@@ -13,7 +13,7 @@ var hapusPenumpang = function(namaPenumpang, penumpang) {
 
                 return penumpang;
                 } else if (i == penumpang.length - 1) {
-                    console.timeLog(namaPenumpang + 'tidak ada orang di angkot');
+                    console.log(namaPenumpang + ' tidak ada orang di angkot');
                 }
 
                 
