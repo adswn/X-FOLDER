@@ -24,11 +24,11 @@ obj.kamu();*/ // this mengembalikan nilai pada object
 
 // cara 3 = CONSTRUCTOR
 
-function obj() {
+function Obj() {
     console.log(this);
     console.log("mengagumi");
 }
-new obj(); // this megembalikan nilai baru pada object
+new Obj(); // this megembalikan nilai baru pada object
 
 
     
