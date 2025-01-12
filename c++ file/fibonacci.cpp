@@ -14,8 +14,8 @@ int main(){
     f_n1 = 1;
     f_n2 = 0;
     f_n = f_n1 + f_n2;
-    cout << f_n2 << "" ;
     cout << f_n1 << "" ;
+    cout << f_n2 << "" ;
 
     for (int i = 1; i < n; i++){
         f_n = f_n1 + f_n2;
