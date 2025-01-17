@@ -24,7 +24,7 @@ var comp = Math.random();
      hasil = 'anda memasukan pertanyaan yang salah';
    }
 
-   alert ('kamu memilih :' + p +' dan kompouter memilih ' + comp + ' \ndan hasilnya ' + hasil);
+   alert ('kamu memilih :' + p +' dan kompouter memilih ' + comp + ' \n dan hasilnya ' + hasil);
   
    tanya = confirm('apakah ingin bermain lagi?');
 
