@@ -12,12 +12,12 @@ int main(){
     cout << "masukan fungsi x: ";
     cin >> x;
 
-    cout << "masukan fungsi y: "; 
-    cin >> y;
+    //cout << "masukan fungsi y: "; 
+    //cin >> y;
 
     
 
-     char a = ceil(x);
+    /* char a = ceil(x);
     cout << "pembulatan ke atas x = " << a << endl;
 
      double b = cos(x);
@@ -29,7 +29,7 @@ int main(){
      double d = fabs(x);
     cout << "nilai absolut float x = " << d << endl;
 
-     double2
+     double
       e = floor(x);
     cout << "pembulatan ke bawah x = " << e << endl;
 
@@ -52,7 +52,10 @@ int main(){
     cout << "akar x = " << k << endl;
 
      double z = tan(x);
-    cout << "tangen x = " << z << endl;
+    cout << "tangen x = " << z << endl;*/
+
+    bool g = log (x);
+    cout << "logaritma basis natural x = " << g << endl;
 
 
     

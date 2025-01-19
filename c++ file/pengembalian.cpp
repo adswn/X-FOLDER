@@ -3,16 +3,22 @@ using namespace std;
 
 int kuadrat(int x){
     int y;
-    y = x *x;
+    y = x * x;
     return y;
 }
 
-int tambah(int a, int br){
+/*int tambah(int a, int b){
     int z;
     z = a + b;
     return z;
-}
+}*/
 
+    void cetak(char input){
+        cout << "ini dalam void \n";
+        cout << input << endl;
+
+
+    }
 int main(){
   int input, hasil, a, b, hasil2;
     cout << "nilai kuadrat y: ";
@@ -22,13 +28,15 @@ int main(){
 
     cout << hasil << endl;
 
-    cout << "masukan nilai a: ";
+   /* cout << "masukan nilai a: ";
     cin >> a;
     cout << "masukan nilai b: ";
     cin >> b;
 
     hasil2 = tambah(a,b);
-    cout << hasil2 << endl;
+    cout << hasil2 << endl;*/
+
+    cetak(input);
 
 
     cin.get();
