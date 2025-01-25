@@ -38,6 +38,10 @@ body {
     padding: 0 5px;
 }
 
+.card .close {
+    text-decoration: none;
+}
+
 .card .nama {
     margin-left: 20px;
     margin-top: 20px;
