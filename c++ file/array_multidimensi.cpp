@@ -10,10 +10,10 @@ void printArray(int *ptrarray, int baris, int kolom) {
             index++;
 }
     }
-    cout << "]" << endl;
+    cout << "]"<< endl;
 }
 int main(){
-    const int baris= 2;
+     const int baris= 2;
    const int kolom = 2;
     int ar [baris][kolom]= {1,2,3,4};
   
