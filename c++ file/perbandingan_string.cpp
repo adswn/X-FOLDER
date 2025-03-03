@@ -16,7 +16,7 @@ int main(){
             cout << " tebakan anda sangat benar" << endl;
             break;
         }
-        cout << "tebakan anda salah" << endl;
+        cout << " tebakan anda salah" << endl;
     }
     cout << "progam selesai" << endl;
     cin.get();
