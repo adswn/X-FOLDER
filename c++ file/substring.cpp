@@ -26,6 +26,9 @@ int main(){
     //mencari dari belakang
 
     cout << kalimat_2.rfind("a") << endl;
+
+    kalimat_1.insert(5, "adalah ");
+    cout << kalimat_1 << endl;
     cin.get();
     return 0;
 }
