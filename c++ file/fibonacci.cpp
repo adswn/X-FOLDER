@@ -12,7 +12,7 @@ int main(){
     cout <<"masukkan nilai n : ";
     cin >> n;
     f_n1 = 1;
-    f_n2 = 0;
+    f_n2 = 2;
     f_n = f_n1 + f_n2;
     cout << f_n1 << "" ;
     cout << f_n2 << "" ;
