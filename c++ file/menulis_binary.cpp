@@ -5,15 +5,16 @@
 using namespace std;
 
 int main(){
-    //fstream fileku;
-    int number = 769804;
+//menulis file binary
+    fstream fileku;
+    int number = 78345610;
 
-    /*fileku.open("data.bin", ios::out | ios::binary);
+    fileku.open("data.bin", ios::out | ios::binary);
     fileku.write(reinterpret_cast<char*>(&number), sizeof(number));
     cout << "penulisan file berhasil" << endl;
-    fileku.close();*/
+    fileku.close();
 
-    fstream fileku;
+   // membaca file binary
     int hasil;
     fileku.open("data.bin", ios::in | ios::binary);
     fileku.read(reinterpret_cast<char*>(&hasil), sizeof(hasil));
